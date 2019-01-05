@@ -7,9 +7,8 @@ namespace WynajemMieszkan.Models
 {
     public class Address
     {
-        public virtual Address City { get; set; }
-        public virtual Address Street { get; set; }
-
-        public bool Alone { get; set; }
+        public int AddressId { get; set; }
+        public string Street { get; set; }
+        public string City { get; set; }
     }
 }

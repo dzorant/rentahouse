@@ -7,12 +7,10 @@ namespace WynajemMieszkan.Models
 {
     public class Owner
     {
-        public virtual Owner Name { get; set; }
-        public virtual Owner Surname { get; set; }
-
-        public bool Male { get; set; }
-        public bool Female { get; set; }
-
+        public int OwnerId { get; set; }
+        public string Name { get; set; }
+        public string Surname { get; set; }
+        public string Phone { get; set; }
     }
 
 
